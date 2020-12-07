@@ -1,0 +1,206 @@
+@charset "utf-8"
+
+
+html {
+    height:100%;
+    min-height: 100%;
+  }
+
+  body#index {
+    margin-top: 1em;
+    margin-bottom: 5em;
+    background-image: url('images/sky.jpg') no-repeat;
+  }
+  
+  div#home {
+    float: right;
+    width: 52%;
+    padding-top: .9em;
+    margin-bottom: 1.1em;
+    color: #F2F4F7;
+    }
+    
+    div#home p {
+      width: 20em;
+      font-size: 1em;
+    }
+    div#contact {
+      float: right;
+      width: 45%;
+      padding-top: 1.6em;
+      margin-bottom: 1.1em;
+      color: #F2F4F7;
+    }
+    div#contact h1 {
+      width: 13em;
+      font-size: 1.5em;
+    }
+
+  body {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    margin-top: 1.2em;
+    background-color: #EF959C;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #F1E9E5;
+    font-size: 1.4em;
+  }
+
+h1 {
+  font-size: 1.6em;
+}
+nav.horizontal {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: .6em;
+  padding-top: .6em;
+  float: left;
+    top: 0;
+    width: 95%;
+    border: 1px solid #B7C7CD;
+    background-color: #B7C7CD;
+    }
+
+ul.row {
+  padding-left: 2em;
+  padding-right: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul.row li {
+   display: block;
+    float: left;
+    width: justify;
+    color: #e9e0e0;
+      }
+
+
+ul#define {
+  list-style: none;
+  color: #e9e0e0;
+}
+
+div {
+  padding-top: 5em;
+  width: 95%;
+}
+
+a:hover, a:link, a:visited {
+  text-decoration:none;
+  color: #333b3d;
+}
+a:focus {
+  text-decoration:none;
+  color: #0b7a75;
+}
+
+.dark, .dark:hover, .dark:link, .dark:visited {
+  color: #D9E0E8;
+}
+
+.dark:focus {
+  text-decoration:none;
+  color: #D9E0E8;
+}
+
+a:hover, a:link, a:visited {
+  text-decoration:none;
+  color: #D9E0E8;
+}
+a:focus {
+  text-decoration:none;
+  color: #0b7a75;
+}
+
+dl {
+  padding: 1em;
+  border: 10em;
+  background-color: #8DA1B9;
+  color: #F1E9E5;
+  text-align: center;
+  width: 42em;
+  box-shadow: #333b3d .1em .1em .1em .1em;
+}
+
+dt {
+  padding: .9em;
+  font-size: 1.3em;
+  text-align: left;
+  line-height: 1.3em;
+  font-family: monospace;
+}
+
+dd {
+  padding-top: .9em;
+  font-size: .8em;
+  text-align: right;
+}
+
+audio {
+  padding: 1em;
+}
+
+ol li {
+  line-height: 1.7em;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#B7C7CD;
+  color: #333b3d;
+  text-align: center;
+  letter-spacing: .15em;
+}
+
+img {
+  height: 19em;
+  padding-top: 1.2em;
+}
+
+img#grateful, img#sky {
+height: 18em;
+padding-top: 1.1em;
+float: left;
+}
+
+p#arabic {
+  font-size: 1.9em;
+  line-height: 1.5em;
+  text-align: right!important;;
+  width: 21em;
+  font-family: 'Droid Arabic Kufi', serif;
+}
+
+p#dua {
+  text-align: center;
+}
+
+table {
+border-style: .1em solid #e9e0e0;
+border-collapse: collapse;
+}
+
+td {
+  border: .1em solid #e9e0e0;
+  padding: .2em;
+}
+
+th {
+  border: .1em solid #e9e0e0;
+  padding: .2em;
+}
+
+address {
+  color: #F1E9E5;
+  line-height: 1em;
+}
+address p {
+  font-style: normal;
+}
